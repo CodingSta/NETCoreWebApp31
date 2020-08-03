@@ -32,7 +32,7 @@ namespace NETCoreWebApp31
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello MinGyu!");
+                    await context.Response.WriteAsync("Hello RecursiveSoft!");
                 });
             });
         }
